@@ -13,4 +13,6 @@ Steps Followed while creating the whole backend :
 //Don't forget to use small "m" in mongoose.model and capital S for mongoose.Schema.
 
 3. Made index.js file imported config file :
-imported require(./db/config.js)
+using :  require("./db/config.js")
+//Wrote and Tested Api's with postman 
+//Now wrote Api's to check connection between node.js and mongoDB.
