@@ -16,3 +16,7 @@ Steps Followed while creating the whole backend :
 using :  require("./db/config.js")
 //Wrote and Tested Api's with postman 
 //Now wrote Api's to check connection between node.js and mongoDB.
+//working fine. 
+//checked for data.save() : post, model.updateOne() : put, model.find() : get(), model.deleteOne() : delete;
+
+4. Once I found that Node.js and mongoDb using mongoose has been set up nicely I went ahead to work with react.js
