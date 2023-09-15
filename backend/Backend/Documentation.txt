@@ -1,0 +1,16 @@
+Steps Followed while creating the whole backend :
+
+1. Wrote config file to connect node.js and mongoDB.
+//Since Node v.17 and MongoDB were producing some error : I needed to replace :
+//"localhost" with "127.0.0.1" or "0.0.0.0" this is some ipv6 vs ipv4 issue. And came with new Node version only.
+
+2. made user.js file and wrote schema and model. As I am going to use mongoose.
+//schema is used for data and datatype validation. Data means the no. and name of columns remains same
+//Datatype means the type of data we insert should always remain same. ( like in strings we cannot enter Integer)
+//At end exported : model class with passing collection and schema name inside it.
+//whenever you need to use model you must use new keyword to make a new object of it and then do stuff.
+// module.exports = mongoose.model("collectionName", schemaObjectName);
+//Don't forget to use small "m" in mongoose.model and capital S for mongoose.Schema.
+
+3. Made index.js file imported config file :
+imported require(./db/config.js)
