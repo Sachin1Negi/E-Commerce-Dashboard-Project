@@ -2,6 +2,9 @@ const express = require ("express");
 const app = express();
 require("./db/config.js");
 const users = require("./db/user.js");
+const cors = require('cors');
+
+app.use(cors());
 
 app.use(express.json()); //used to accept body from frontend / postman.
 
