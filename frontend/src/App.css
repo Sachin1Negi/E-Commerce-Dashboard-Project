@@ -1,0 +1,60 @@
+
+/* Note below I have used both the classname and the component name */
+.nav-ul li{
+  display : inline-block;
+  text-decoration: none;
+  padding: 6px 8px;
+  /* border-radius: 10px solid black; */
+  color: skyblue;
+  /* border: 2px solid black; */
+}
+
+.nav-ul li a{
+  text-decoration: none;
+  padding: 5px;
+  color: #ffff;
+}
+
+.nav-ul {
+  background-color: skyblue;
+  margin: 0px;
+  padding: 10px
+}
+
+/* the className is applied at the div and not at the h3. */
+.footer h3 {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: skyblue;
+  margin: 0px;
+}
+
+.signup-inp{
+  padding: 5px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 2px solid skyblue;
+  width: 50%;
+  text-align: center;
+  display: block;
+}
+
+.signup-div{
+  margin-left: 30%;
+}
+
+
+.signup-but {
+  display: block;
+  padding: 6px 90px;
+  margin: 8px 12px;
+  width: 51%;
+  border: 2px solid skyblue;
+  border-radius: 8px;
+}
+
+.register{
+  margin-left : 21%
+}

@@ -1,0 +1,6 @@
+Notes :
+
+1. You must save all the files so that the changes are reflected on the react app else they will show previous result and you'll think things are not working.
+2. putting brackets on () a function written inside the onClick={} event causes abnormality. you shoudl not write the brackets inside it.
+example : onClick={ collectData} -> right 
+          onClick={ collectData()} -> wrong, causes abnormality.
